@@ -1,5 +1,9 @@
 streamlit
-tensorflow
-keras
 fastapi
 uvicorn
+tensorflow
+keras
+numpy
+pillow
+opencv-python
+requests
