@@ -7,7 +7,7 @@ import io
 app = FastAPI()
 
 # Load model dan label
-model = tf.keras.models.load_model("keras_Model.h5", compile=False)
+model = tf.keras.models.load_model("keras_model.h5", compile=False)
 class_names = open("labels.txt", "r").readlines()
 
 @app.post("/predict")
